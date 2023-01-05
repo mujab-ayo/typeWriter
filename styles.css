@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500&display=swap');
+
+body {
+    font-family: 'Raleway', sans-serif;
+    height: 100vh;
+    margin: 0;
+    background: url(./image/dark-city.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    color: #ccc;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    padding: 0 7%;
+}
+
+.text-type > .txt{
+    border-right: 6px solid #777;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    font-weight: 200;
+}
+
+h2 {
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 100;
+}
+
+@media(max-width: 800px) {
+    h1 {
+        font-size: 2rem;
+    }
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+@media(max-width: 600px) {
+    h1 {
+        font-size: 1.5rem;
+        font-weight: 100;
+    }
+    
+}
+
